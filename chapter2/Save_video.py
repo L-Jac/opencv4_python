@@ -23,6 +23,7 @@ if __name__ == '__main__':
 
             # 将一帧一帧图像写入视频
             result.write(frame)
+            # 窗口名“Video”,
             cv.imshow('Video', frame)
             cv.waitKey(25)
 

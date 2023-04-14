@@ -32,7 +32,8 @@ if __name__ == '__main__':
         scores1 = file1.getNode('scores').mat()
 
         # 展示读取结果
-        print('姓名：{}'.format(name1))
+        # 效率更高的格式化输出
+        print(f"姓名{name1}")
         print('年龄：{}'.format(age1))
         print('记录日期：{}'.format(date1))
         print('成绩单：{}'.format(scores1))
